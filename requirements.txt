@@ -1,0 +1,16 @@
+# --- Core Deep Learning & Math ---
+torch>=2.1.0
+numpy>=1.24.0
+
+# --- LLM & Hugging Face (Cho Trigger Agent & Verifier) ---
+transformers>=4.37.0
+accelerate>=0.26.0
+# protobuf thường cần thiết cho tokenizer của một số model
+protobuf>=4.25.0  
+
+# --- OpenAI API (Cho Generator Agent) ---
+openai>=1.10.0
+
+# --- Utilities ---
+python-dotenv>=1.0.0
+tqdm>=4.66.0
